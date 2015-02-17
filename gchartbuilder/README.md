@@ -61,7 +61,7 @@ You have four methods in the class:
 
 2. add_row -> Adds a new row for the chart, the args are:
 	1. name: Name of the row, REQUIRED
-	2+. You may insert as many arguments as you need according of the columns you have inserted.
+	2. You may insert as many arguments as you need according of the columns you have inserted.
 
 3. render_array -> Renders the Google array as a PHP array mode.
 4. render_json -> Renders the Google array as a JSON string. THIS STRING IS NEEDED FOR THE GRAPHICS RESULT.
