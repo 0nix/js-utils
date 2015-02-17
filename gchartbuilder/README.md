@@ -51,6 +51,7 @@ $gmod = new GoogleChartDataModel(); # INSTANCE
 ```
 
 You have four methods in the class:
+
 1. add_column -> Adds a column for the chart, the args are:
 	1. id: ID of the column, REQUIRED
 	2. label: Label of the column, REQUIRED
