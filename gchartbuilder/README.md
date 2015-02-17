@@ -19,7 +19,7 @@ Also you must have a PHP 5.4+ server in order to run the GoogleChartsDataModel c
 	```html
 	<script type="text/javascript" src="js/rzerogooglechartbuilder.min.js"></script>
 	```
-3. In your body, don't forget to put this line between a <script> tag set:
+3. In your body, don't forget to put this line between a `<script>` tag set:
 	```javascript
 	google.load('visualization', '1.0', {packages:['corechart']});
 	```
@@ -47,7 +47,6 @@ You have in data folder a class named GoogleChartsDataModel.class.php. This clas
 For instantiating you must do this:
 ```php
 require("GoogleChartsDataModel.php"); # You MUST call the file :P
-
 $gmod = new GoogleChartDataModel(); # INSTANCE
 ```
 
